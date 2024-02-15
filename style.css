@@ -127,4 +127,19 @@ input{
     margin-left: 60px;
     font-size: 1.2rem;
 }
+@media (max-width: 600px){
+.main{
+    display: none;
+}
+
+
+
+
+
+
+
+    
+
+
+}
 
