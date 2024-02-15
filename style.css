@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(245, 215, 245);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: #faf6f6;
+    color: #000;
+    display: block;
+    text-wrap: wrap;
+    width: 400px;
+    height: 500px;
+    padding: 60px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    /* margin-left: 700px; */
+    float: right;
+    
+}
+.main{
+    background-color: rgb(226, 19, 19);
+    color: #fff;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    padding: 60px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+/* img{
+    width: 20px;
+    margin-left: 60px;
+    
+} */
+.img-1{
+   width: 20px;
+   margin-left: 70px;
+}
+.img-2{
+width: 20px;
+margin-left: 140px;
+margin-right: 70px;
+gap: 20px;
+}
+.images img{
+    width: 20px;
+    margin-left:70px ;
+    
+}
+h2{
+    margin-left: 120px; 
+    margin-bottom: 10px; 
+}
+ h3{
+    margin-left: 90px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: medium;
+}
+p {
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin-left: 100px;
+    margin-bottom: 10px; 
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-left: 10px;
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border: none;
+    /* border: 1px solid gray; */
+    background-color: rgb(240, 239, 239);
+
+    
+}
+.input-2{
+    margin-left: 10px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border: none;
+    /* border: 1px solid gray; */
+    margin-top: 60px;
+    background-color: rgb(240, 239, 239);
+}
+ button{
+    background-color: red;
+    border: none;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    /* margin-top: 90px; */
+    gap: 10px;
+    border-radius: 20px;
+    margin-left: 60px;
+    /* margin-bottom: 100px; */
+}
+.forgot{
+    margin-top: 40px;
+}
+.forgot button{
+    margin-top: 20px;
+}
+.forgot h3{
+    margin-left: 60px;
+    font-size: 1.2rem;
+}
+
